@@ -142,3 +142,25 @@ azure-free-tier-setup/
 
 *Report prepared as part of the Azure Free Tier Account Setup Complete Learning Program.*  
 *Cloud Platform: Microsoft Azure | Learning Track: Cloud Computing Fundamentals*
+
+---
+
+## 9. Free Tier Resource Quotas
+
+| Service | Free Tier Limit | Duration |
+|---|---|---|
+| Storage Account (LRS) | 5 GB | 12 months |
+| Virtual Machines (B1s) | 750 hours/month | 12 months |
+| Azure Functions | 1 million requests | Always free |
+| Azure SQL Database | 250 GB | 12 months |
+| Bandwidth (outbound) | 15 GB | Always free |
+| Azure Active Directory | 50,000 objects | Always free |
+
+## 10. Troubleshooting Notes
+
+| Issue Encountered | Resolution |
+|---|---|
+| MFA enforcement page blocked portal access | Navigated directly to portal.azure.com/#home |
+| GitHub HTTPS prompting for credentials repeatedly | Used `git config --global credential.helper store` |
+| Card verification during signup | Used virtual dollar card with minimum $1 balance |
+| Azure region not defaulting to Africa | Manually selected East US for broader free-tier support |
